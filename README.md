@@ -1,7 +1,7 @@
 # Towards Fast Non-stationary Deconvolution in Ultrasound Imaging
 [Ecole Polytechnique Fédérale de Lausanne (EPFL)]: http://www.epfl.ch/
 [Signal Processing Laboratory (LTS5)]: http://lts5www.epfl.ch
-[Laboratoire de Communication et Audio Visuel (LCAV)]: http://lcav.epfl.ch/
+[Laboratoire de Communications Audiovisuelles (LCAV)]: http://lcav.epfl.ch/
 [Cognitive Computing Department]: https://www.zurich.ibm.com/ics/
 [IBM Research]: https://www.zurich.ibm.com/
 [Institute of Sensors, Signals and Systems]: https://www.hw.ac.uk/schools/engineering-physical-sciences/institutes/sensors-signals-systems/basp.htm
