@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+.ipynb_checkpoints
+
+# Mac OS X
+.DS_Store
+
+# JetBrains
+.idea/
+
+# Datasets
+data/*
+*.hdf5
+
+# Picmus
+picmus/*
+
+# Matlab files
+*.mat
+*.m~
+
+# PDF and EPS files
+*.pdf
+*.eps
