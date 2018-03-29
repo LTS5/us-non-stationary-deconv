@@ -15,7 +15,7 @@ Adrien Besson<sup>1</sup>, Lucien Roquette<sup>2</sup>, Dimitris Perdios<sup>1</
 
 <sup>2</sup>[Cognitive Computing Department], [IBM Research], Switzerland
 
-<sup>3</sup>[Laboratoire de Communication et Audio Visuel (LCAV)], [Ecole Polytechnique Fédérale de Lausanne (EPFL)], Switzerland
+<sup>3</sup>[Laboratoire de Communications Audiovisuelles (LCAV)], [Ecole Polytechnique Fédérale de Lausanne (EPFL)], Switzerland
 
 <sup>4</sup>[Institute of Sensors, Signals and Systems], [Heriot-Watt University] , UK
 
