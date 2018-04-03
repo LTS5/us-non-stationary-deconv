@@ -1,4 +1,4 @@
-# Towards Fast Non-stationary Deconvolution in Ultrasound Imaging
+# Fast Non-stationary Deconvolution in Ultrasound Imaging
 [Ecole Polytechnique Fédérale de Lausanne (EPFL)]: http://www.epfl.ch/
 [Signal Processing Laboratory (LTS5)]: http://lts5www.epfl.ch
 [Laboratoire de Communications Audiovisuelles (LCAV)]: http://lcav.epfl.ch/
@@ -38,9 +38,8 @@ We use the proposed model in a maximum-a-posteriori estimation algorithm, with a
 
 ## Installation
 Clone the repository (``--recursive`` is used to download the [PICMUS submodule] when cloning the repo) using the following command:
-
     ```bash
-    git clone --recursive https://github.com/LTS5/us-non-stationary-deconv
+    git clone --recursive https://github.com/LTS5/us-non-stationary-deconv.git
     ```
 ## Usage
 1. `display_experiments.m` reproduces Figures and Tables displayed in the paper 
