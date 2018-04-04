@@ -6,7 +6,7 @@
 [IBM Research]: https://www.zurich.ibm.com/
 [Institute of Sensors, Signals and Systems]: https://www.hw.ac.uk/schools/engineering-physical-sciences/institutes/sensors-signals-systems/basp.htm
 [Heriot-Watt University]: https://www.hw.ac.uk/
-[paper]: http://infoscience.epfl.ch/record/254887?&ln=fr
+[paper]: https://infoscience.epfl.ch/record/254887?&ln=en
 [PICMUS submodule]:https://bitbucket.org/picmus/picmus
 
 Adrien Besson<sup>1</sup>, Lucien Roquette<sup>2</sup>, Dimitris Perdios<sup>1</sup>, Matthieu Simeoni<sup>2,3</sup>, Marcel Arditi<sup>1</sup>, Paul Hurley<sup>2</sup>, Yves Wiaux<sup>4</sup> and Jean-Philippe Thiran<sup>1,5</sup>
