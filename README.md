@@ -38,9 +38,9 @@ We use the proposed model in a maximum-a-posteriori estimation algorithm, with a
 
 ## Installation
 Clone the repository (``--recursive`` is used to download the [PICMUS submodule] when cloning the repo) using the following command:
-    ```bash
-    git clone --recursive https://github.com/LTS5/us-non-stationary-deconv.git
-    ```
+```bash
+git clone --recursive https://github.com/LTS5/us-non-stationary-deconv.git
+```
 ## Usage
 1. `display_experiments.m` reproduces Figures and Tables displayed in the paper 
 1. `main_deconvolution.m` allows you to launch the lp-deconvolution algorithm to reconstruct images
