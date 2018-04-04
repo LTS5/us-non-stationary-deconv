@@ -5,8 +5,8 @@
 [Cognitive Computing Department]: https://www.zurich.ibm.com/ics/
 [IBM Research]: https://www.zurich.ibm.com/
 [Institute of Sensors, Signals and Systems]: https://www.hw.ac.uk/schools/engineering-physical-sciences/institutes/sensors-signals-systems/basp.htm
-[Heriot-Watt University]:https://www.hw.ac.uk/
-[paper]:https://infoscience.epfl.ch/record/229453/files/IUS2017_USSR_An_UltraSound_Sparse_Regularization_Framework.pdf
+[Heriot-Watt University]: https://www.hw.ac.uk/
+[paper]: http://infoscience.epfl.ch/record/254887?&ln=fr
 [PICMUS submodule]:https://bitbucket.org/picmus/picmus
 
 Adrien Besson<sup>1</sup>, Lucien Roquette<sup>2</sup>, Dimitris Perdios<sup>1</sup>, Matthieu Simeoni<sup>2,3</sup>, Marcel Arditi<sup>1</sup>, Paul Hurley<sup>2</sup>, Yves Wiaux<sup>4</sup> and Jean-Philippe Thiran<sup>1,5</sup>
@@ -47,3 +47,6 @@ git clone --recursive https://github.com/LTS5/us-non-stationary-deconv.git
         
 ## Contact
  Adrien Besson (adrien.besson@epfl.ch)
+ 
+## License
+[License](LICENSE.txt) for non-commercial use of the software. Please cite the following [paper] when using the code.
