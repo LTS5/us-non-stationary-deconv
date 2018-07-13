@@ -31,7 +31,7 @@ for ii = 1:numel(filename_list)
     metrics.flagDisplay = 1; % Set this flag to 1 to display intermediate results
     
     % Evaluate resolution and contrast
-    %metrics.evaluateFWHM();
+    metrics.evaluateFWHM();
     metrics.evaluateContrast();
     
     %-- Select the right quality indicator in the metric object
