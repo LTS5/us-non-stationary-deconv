@@ -1,4 +1,4 @@
-# Fast Non-stationary Deconvolution in Ultrasound Imaging
+# Non-stationary Blur Evaluation for Ultrasound Image Restoration
 [Ecole Polytechnique Fédérale de Lausanne (EPFL)]: http://www.epfl.ch/
 [Signal Processing Laboratory (LTS5)]: http://lts5www.epfl.ch
 [Laboratoire de Communications Audiovisuelles (LCAV)]: http://lcav.epfl.ch/
@@ -26,15 +26,14 @@ Code used to reproduce the results presented in this [paper], submitted to IEEE 
 ## Abstract
 Pulse-echo ultrasound (US) aims at imaging tissue using an array of piezoelectric elements by transmitting short US pulses and receiving backscattered echoes. Conventional US imaging relies on delay-and-sum (DAS) beamforming which retrieves a radio-frequency (RF) image, a blurred estimate of the tissue reflectivity function (TRF).
 To address the problem of the blur induced by the DAS, deconvolution techniques have been extensively studied as a post-processing tool for improving the resolution. Most approaches assume the blur to be spatially invariant, i.e. stationary, across the imaging domain. However, due to physical effects related to the propagation, the blur is non-stationary across the imaging domain.
-In this work, we propose a continuous-domain formulation of a model which accounts for the diffraction effects related to the propagation. 
+In this work, we propose a continuous-domain formulation of a model which accounts for the diffraction effects related to the propagation.
 We define a PSF operator as a sequential application of the forward and adjoint operators associated with this model, under some specific assumptions that we precise.
 Taking into account this sequential structure, we exploit efficient formulations of the operators in the discrete domain and provide a PSF operator which exhibits linear complexity with respect to the grid size.
 We use the proposed model in a maximum-a-posteriori estimation algorithm, with a generalized Gaussian distribution prior for the TRF. Through simulations and in vivo experimental data, we demonstrate its superiority against state-of-the-art deconvolution methods based on a stationary PSF.
 
 ## Requirements
-  * MATLAB (code tested on MATLAB R2017a) 
+  * MATLAB (code tested on MATLAB R2017a)
   * git
-  * 20 GB of RAM to store the matrices
 
 ## Installation
 Clone the repository (``--recursive`` is used to download the [PICMUS submodule] when cloning the repo) using the following command:
@@ -42,11 +41,17 @@ Clone the repository (``--recursive`` is used to download the [PICMUS submodule]
 git clone --recursive https://github.com/LTS5/us-non-stationary-deconv.git
 ```
 ## Usage
-1. `display_experiments.m` reproduces Figures and Tables displayed in the paper 
-1. `main_deconvolution.m` allows you to launch the lp-deconvolution algorithm to reconstruct images
-        
+1. If you want to reproduce Figures displayed in the paper, use the script `display_experiments.m`
+1. If you want to reproduce the experiments, run one of the following scripts
+  * `bmode_pointreflector_pw_experiment.m` reproduces the results of the plane wave experiment with point reflectors (Section V.A)
+  * `bmode_pointreflector_dw_experiment.m` reproduces the results of the plane wave experiment with point reflectors (Section V.A)
+  * `bmode_picmus_experiment.m` reproduces the results of the experiment on the PICMUS phantom (Section V.B)
+  * `bmode_carotid_experiment.m` reproduces the results of the experiment on the in vivo carotid (Section V.C)
+  * `computational_complexity_experiment_1.m` reproduces the first experiment on evaluation time (Section V.D, Table VI)
+  * `computational_complexity_experiment_2.m` reproduces the second experiment on evaluation time (Section V.D, Figure 9)
+
 ## Contact
  Adrien Besson (adrien.besson@epfl.ch)
- 
+
 ## License
 [License](LICENSE.txt) for non-commercial use of the software. Please cite the following [paper] when using the code.
