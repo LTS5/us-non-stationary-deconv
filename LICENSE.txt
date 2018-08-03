@@ -22,7 +22,7 @@ Terms and Conditions of the LICENSE
 4. LICENSEE agrees that it will use the PROGRAM, and any modifications, improvements, or derivatives to PROGRAM that LICENSEE may create (collectively, "IMPROVEMENTS") solely for academic, non-commercial purposes and shall not distribute or transfer the PROGRAM or any IMPROVEMENTS to any person without prior written permission from LICENSOR. The terms "academic, non-commercial", as used in this Agreement, mean academic or other scholarly research which (a) is not undertaken for profit, or (b) is not intended to produce works, services, or data for commercial use, or (c) is neither conducted, nor funded, by a person or an entity engaged in the commercial use, application or exploitation of works similar to the PROGRAM.
 
 5. LICENSEE agrees that he/she shall make the following acknowledgement in publications resulting from the use of the PROGRAM : 
-A. Besson, L. Roquette, D. Perdios, M. Simeoni, M. Arditi, P. Hurley, Y. Wiaux, and J.-Ph. Thiran, "Fast Non-stationary Deconvolution in Ultrasound Imaging".
+A. Besson, L. Roquette, D. Perdios, M. Simeoni, M. Arditi, P. Hurley, Y. Wiaux, and J.-Ph. Thiran, "A Physical Model of Non-stationary Blur in Ultrasound Imaging".
 
 Except for the above-mentioned acknowledgment, LICENSEE shall not use the PROGRAM title or the names or logos of LICENSOR, nor any adaptation thereof, nor the names of any of its employees or laboratories, in any advertising, promotional or sales material without prior written consent obtained from LICENSOR in each case.
 
